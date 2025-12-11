@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌼 — Sobre</title>
+    <style>
+       /* --- BASE DO SITE --- */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #fde8f2;
+    color: #5a4b51;
+}
+
+/* --- CABEÇALHO --- */
+header {
+    background: #ffcce5;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+/* brilho suave no topo */
+header::after {
+    content: "✨";
+    font-size: 1.1rem;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    opacity: .7;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #e54c8a;
+    text-shadow: 0 0 4px rgba(255,255,255,0.7);
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #e54c8a;
+    font-weight: 600;
+}
+
+/* --- CONTAINER PRINCIPAL --- */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* --- CARD PRINCIPAL --- */
+.card {
+    background: #fff7fc;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(229, 76, 138, 0.18);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: relative;
+}
+
+/* brilhos discretos ao redor do card */
+.card::before {
+    content: "✨";
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    font-size: 1.2rem;
+    opacity: .7;
+}
+
+.card::after {
+    content: "✨";
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    font-size: 1.2rem;
+    opacity: .7;
+}
+
+/* --- TÍTULOS SECUNDÁRIOS --- */
+h2, h3 {
+    color: #d63c82;
+    position: relative;
+}
+
+/* florzinha delicada ao lado dos títulos */
+h2::after, h3::after {
+    content: "🌸";
+    font-size: 0.9rem;
+    margin-left: 6px;
+    opacity: .9;
+}
+
+/* --- BLOCOS INTERNOS (CURIOSIDADES, ETC) --- */
+section {
+    background: #fff7fc;
+    padding: 18px;
+    border-radius: 15px;
+    border: 1px solid rgba(214,60,130,0.15);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    margin-top: 22px;
+    position: relative;
+}
+
+/* laço pequeno no canto */
+section::after {
+    content: "🎀";
+    font-size: 1rem;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: .8;
+}
+
+/* listas */
+section ul {
+    padding-left: 16px;
+    color: #5a4b51;
+    font-size: 0.98rem;
+}
+
+section li {
+    margin-bottom: 7px;
+}
+
+/* --- RODAPÉ --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffcce5;
+    margin-top: 40px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+/* brilho no rodapé */
+footer::before {
+    content: "✨";
+    font-size: 1.1rem;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    opacity: .7;
+}
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sobre mim 🌸</h1>
+    <nav>
+          <a href="index.html">Pabs 🌸</a>
+        <a href="sobre.html">Sobre 🌼</a>
+        <a href="galeria.html">Galeria 📷</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Quem sou eu?</h2>
+
+        <p>Tenho um jeito leve, mas uma alma cheia de profundezas. Sou calma, observadora e sinto mais do que falo. Carrego tranquilidade no olhar, força escondida no peito e um brilho que aparece nos detalhes. Gosto de cuidar, criar e entender o mundo no meu ritmo — do meu jeito.</p>
+
+        <!-- CURIOSIDADES -->
+        <section class="curiosidades">
+            <h3>✨ Curiosidades sobre mim</h3>
+            <ul>
+                <li><strong>Cores favoritas:</strong> roxo, preto e um vermelho puxado pro vinho — e, lá no fundo, um pouquinho de rosa desde pequena.</li>
+                <li><strong>Mania:</strong> organizar tudo do meu jeitinho, mesmo quando ninguém pediu.</li>
+                <li><strong>Amo pequenas coisas:</strong> chuva, música calma e ficar no meu quarto arrumadinho.</li>
+            </ul>
+        </section>
+
+        <section class="felicidades">
+    <h3>✨ Coisas que me deixam feliz</h3>
+    <p>
+        Existem pequenas coisas que deixam meu dia mais leve: o barulho da chuva,
+        ficar quietinha no meu canto, ouvir músicas que combinam com meu humor,
+        sentir meu quarto com aquela vibe aconchegante, ter meus pets por perto e
+        apreciar detalhes bonitos — daqueles que quase ninguém percebe, mas que
+        pra mim fazem tudo valer a pena.
+    </p>
+</section>
+
+<!-- MEUS SONHOS & OBJETIVOS -->
+<section class="sobre-mim-bloco">
+    <h2>🌙 Meus sonhos & objetivos</h2>
+    <p>
+        Sempre tive uma imaginação grande, e isso nunca mudou.  
+        Hoje, meus sonhos crescem comigo: quero aprender mais, evoluir como pessoa  
+        e construir coisas que façam sentido para mim e para quem eu amo.  
+        Me vejo explorando áreas criativas, trabalhando com algo que desperte meu brilho  
+        e vivendo uma vida que eu mesma tenha orgulho de escrever.
+    </p>
+    <p>
+        Meu objetivo não é ser perfeita — é ser verdadeira, leve e constante.  
+        Quero conquistar meu espaço no meu tempo, mantendo meus valores, minha essência  
+        e essa vontade de transformar o que eu toco em algo bonito.
+    </p>
+</section>
+
+<!-- COISAS QUE NÃO GOSTO -->
+<section class="nao-gosto">
+  <h3>⚠️ Coisas que eu não gosto</h3>
+  <ul>
+    <li>Lugares muito barulhentos — me deixam desconfortável.</li>
+    <li>Pessoas que falam alto demais ou forçam intimidade rápido.</li>
+    <li>Luz forte direto no rosto — incomoda muito meus olhos.</li>
+    <li>Bagunça visual e coisas desorganizadas.</li>
+    <li>Quando alguém interrompe meu momento de paz.</li>
+  </ul>
+</section>
+
+<!-- COISAS QUE ME DEIXAM FELIZ -->
+<section class="feliz">
+  <h3>🌤️ Coisas que me deixam feliz</h3>
+  <ul>
+    <li>Escutar minhas músicas favoritas e sentir a vibe mudar.</li>
+    <li>Ficar no meu cantinho, com silêncio e conforto.</li>
+    <li>Conversas leves e sinceras com pessoas que realmente importam.</li>
+    <li>Ver coisas organizadas e combinando com meu estilo.</li>
+    <li>Sentir que estou melhorando aos poucos, no meu tempo.</li>
+  </ul>
+</section>
+
+<!-- MEU JEITO (MINHA PERSONALIDADE) -->
+<section class="personalidade">
+  <h3>🌙 Meu jeito (minha personalidade)</h3>
+  <ul>
+    <li>Sou tranquila, mas penso muito — meu mundo interno é gigante.</li>
+    <li>Gosto de observar primeiro e falar depois.</li>
+    <li>Tenho um humor leve, mas silencioso.</li>
+    <li>Sou carinhosa de um jeito discreto, nos detalhes.</li>
+    <li>Gosto de estar perto, mas também preciso do meu espaço.</li>
+  </ul>
+</section>
+
+<!-- MINHAS MANIAS -->
+<section class="manias">
+  <h3>✨ Minhas manias</h3>
+  <ul>
+    <li>Reparo nos detalhes que ninguém percebe.</li>
+    <li>Fico repetindo músicas que combinam com meu humor do dia.</li>
+    <li>Gosto de arrumar meu quarto do meu jeito (e ninguém mexe!).</li>
+    <li>Começo séries animada… mas se enjoar, já paro na hora kkk.</li>
+    <li>Falo sozinha quando estou concentrada.</li>
+    <li>Sempre coloco meu fone mesmo sem música — só pelo conforto.</li>
+  </ul>
+</section>
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+<footer>Feito com carinho 💗</footer>
+
+</body>
+</html>
