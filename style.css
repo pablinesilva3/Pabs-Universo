@@ -1,0 +1,360 @@
+/* Fonte fofa Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #ffe6f2;
+    color: #4a4a4a;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #ffb3d9, #ff99cc);
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-size: 2.4em;
+    animation: fadeIn 1.2s ease;
+}
+
+/* Menu */
+nav {
+    margin-top: 15px;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 8px;
+    background: white;
+    border-radius: 20px;
+    color: #ff66b3;
+    font-weight: 600;
+    transition: 0.3s;
+}
+nav a:hover {
+    background: #ff66b3;
+    color: white;
+}
+
+/* Conteúdo */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cartões */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Galeria */
+.galeria img {
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+/* Rodapé */
+footer {
+    background: #ffb3d9;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0); }
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 6px 5px;
+    }
+    .galeria img {
+        width: 150px;
+    }
+}
+
+
+/* Glitter brilhoso */
+.glitter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.glitter span {
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    animation: glitter-move 5s linear infinite;
+}
+
+@keyframes glitter-move {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(600px) scale(0.3);
+        opacity: 0;
+    }
+}
+
+
+/* --- GERAL --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fffafc;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+/* Títulos */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff77b7;
+    margin-bottom: 30px;
+}
+
+/* --- GRID DOS GOSTOS --- */
+.gostos-section {
+    padding: 40px 20px;
+}
+
+.gostos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 10px;
+}
+
+/* --- CARD --- */
+.gosto-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.45);
+    text-align: center;
+    transition: 0.3s ease;
+    border: 2px solid #ffd6e8;
+}
+
+/* Efeito Hover */
+.gosto-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 6px 16px rgba(255, 140, 170, 0.55);
+}
+
+/* Título do card */
+.gosto-card .card-title {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #ff4f9d;
+}
+
+/* Imagens */
+.gosto-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+/* Emojis de decoração */
+.decoration {
+    font-size: 1.4rem;
+    color: #ffb6d6;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #ffe6f3;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #ff4f9d;
+}
+
+
+.subtitulo-galeria {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #ff8ac0;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #fde8f2;
+    color: #5a4b51;
+}
+
+header {
+    background: #ffcce5;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #e54c8a;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #e54c8a;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.card {
+    background: #fff7fc;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #e54c8a;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffcce5;
+    margin-top: 40px;
+}
+
+/* --- GOSTOS (se quiser usar depois em outra página) --- */
+
+.gostos-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+.gostos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gosto-card {
+    background: #ffedf6;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    color: #e54c8a;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .2s ease;
+}
+
+.gosto-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.card-title {
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #d63c82;
+}
+
+.gosto-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.decoration {
+    font-size: 1.2rem;
+    color: #ff9acb;
+    margin-top: 6px;
+}
+
+/* ===== Fundo do Site ===== */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-image: url("https://i.pinimg.com/736x/9a/99/4e/9a994ebdef9fc8ec01bac3d4903a5247.jpg"); /* imagem de fundo */
+    background-size: cover;      /* cobre toda a tela */
+    background-position: center; /* centralizada */
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* véu rosado suave para deixar delicado */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 230, 245, 0.45); /* rosado transparente */
+    backdrop-filter: blur(3px);
+    z-index: -1;
+}
